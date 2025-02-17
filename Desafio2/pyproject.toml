@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "meli_exercise"
+version = "0.1.0"
+description = ""
+authors = ["Ivette <ijvelezt@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+xgboost = "^2.1.4"
+scikit-learn = "^1.6.1"
+statsmodels = "^0.14.4"
+tensorflow = "^2.18.0"
+numpy = ">=1.26.0,<2.1.0"
+jupyter = "^1.1.1"
+lightgbm = "^4.6.0"
+optuna = "^4.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
